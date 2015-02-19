@@ -1,5 +1,5 @@
 #!/bin/bash
 
-find ./ -name *.fq | xargs rm
-find ./ -name *.fastq | xargs rm
+find ./ -name "*.fq" -user ${USER} | xargs rm
+find ./ -name "*.fastq" -user ${USER} | xargs rm
 

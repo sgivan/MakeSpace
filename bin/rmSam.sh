@@ -1,4 +1,4 @@
 #!/bin/bash
 
-find ./ -name *.sam | xargs rm
+find ./ -name "*.sam" -user ${USER} | xargs rm
 

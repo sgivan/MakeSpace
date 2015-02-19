@@ -1,5 +1,5 @@
 #!/bin/bash
 
-find ./ -name *.fq | parallel 'bsub -J {} gzip {}'
-find ./ -name *.fastq | parallel 'bsub -J {} gzip {}'
+find ./ -name "*.fq" -user ${USER} | parallel 'bsub -J {} gzip {}'
+find ./ -name "*.fastq" -user ${USER} | parallel 'bsub -J {} gzip {}'
 
