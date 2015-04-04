@@ -3,5 +3,7 @@ utilities are used when available; for example, samtools is used to compress SAM
 
 Other scripts are available for deleting the same file types that were subjected to compression.
 
+<a href="https://github.com/sgivan/MakeSpace/wiki">Check the wiki</a> for documentation.
+
 If you have any questions, please contact Scott Givan at givans@missouri.edu.
 
